@@ -1,23 +1,25 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-.main {
-  width: 100%;
+main {
+  margin: 0 auto;
+  width: 80%;
   margin-top: -22px;
-/*   position: absolute;
- */  top: 0;
-/*   display: block;
- */  background: #c91cc9;
+  background: #c91cc9;
 }
-
+div {
+  margin: 0 auto;
+}
 .float {
   float: left;
   display: block;
 }
 .center {
+  margin: 0 auto;
   text-align: center;
 }
 .right {
+  padding-right: 10px;
   float: right;
 }
 .glow {
@@ -45,16 +47,19 @@
  }
 
  .movie-show {
+   margin: 0 auto;
    color: #444;
    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee;
    background: #c91cc9;
    display: block;
    border: 1px solid grey;
    padding: 5px;
-   margin: 10px 10px;
-   float: left;
-   width: 60%;
-
+/*    margin: 10px 10px;
+ */   float: left;
+    width: 100%;
+ }
+ section {
+   margin: 0 auto;
  }
  section h4 {
    display: block;
@@ -67,7 +72,10 @@
  */  display: block;
 }
 
+
 h1 {
+  padding-bottom: 20px;
+  padding-top: 20px;
   color: #444;
   text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee,;
 /*   color: #aaa
@@ -84,7 +92,9 @@ aside {
   float: right;
 }
 img {
-  margin-left: 175px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
 }
 input {
   font-size: 14px;

@@ -1,8 +1,9 @@
 <main>
 
-  </div>
+  <div>
 <section class="movie-show">
   <h1 class="center">{{movie.Title}}</h1>
+  <h4 class="right"><a href="public/partials/home.html">Search Page</h4></a>
   <img ng-src="{{movie.Poster}}" alt="poster" />
 
   <h4 class="show">Actors:  {{movie.Actors}}</h4>
@@ -20,6 +21,6 @@
   <h4 class="show">Imdb Rating:  {{movie.imdbRating}}</h4>
   <h4 class="show">Imdb Votes:  {{movie.imdbVotes | number: 3}}</h4>
 </section>
-<div>
+</div>
 
 </main>
