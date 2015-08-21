@@ -1,0 +1,19 @@
+<main class="main">
+  <h1 class="center glow">Movie Search using OMDB API with Angular  </h1>
+  <form class="center" name="movieForm">
+    <label for="title"></label>
+      <input class="input" type="text" id="title" ng-model="movie" placeholder="Enter a movie title">
+    <button type="submit" ng-click="movieSearch(movie)">Search</button>
+  </form>
+  <hr>
+
+  <div class="wrapper">
+    <article class="movie" ng-repeat="movie in movies">
+      <h5>{{movie.Title}}</h5>
+      <h5>{{movie.Year}}</h5>
+      <aside>
+        <h5><a class="right" ng-href="/show/{{movie.imdbID}}">Show Movie</a></h5>
+      </aside>
+    </article>
+  </div>
+</main>

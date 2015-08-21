@@ -1,0 +1,100 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  margin-top: -22px;
+/*   position: absolute;
+ */  top: 0;
+/*   display: block;
+ */  background: #c91cc9;
+}
+
+.float {
+  float: left;
+  display: block;
+}
+.center {
+  text-align: center;
+}
+.right {
+  float: right;
+}
+.glow {
+  color: #444;
+  text-shadow:
+    1px 0px 1px #ccc, 0px 1px 1px #eee,
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+}
+
+.movie {
+    line-height: .35em;
+    display: inline-block;
+    background: #F8F6F8;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px 20px;
+    float: left;
+    color: #605F60;
+     width: 44%;
+ }
+
+ .movie-show {
+   color: #444;
+   text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee;
+   background: #c91cc9;
+   display: block;
+   border: 1px solid grey;
+   padding: 5px;
+   margin: 10px 10px;
+   float: left;
+   width: 60%;
+
+ }
+ section h4 {
+   display: block;
+
+ }
+.wrapper {
+  margin-left: 135px;
+  text-align: center;
+/*   width: 50%;
+ */  display: block;
+}
+
+h1 {
+  color: #444;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee,;
+/*   color: #aaa
+ */}
+.show {
+  float: none;
+}
+article p, h4, h5 {
+  float: left;
+  display: inline-block;
+  padding-left: 20px;
+}
+aside {
+  float: right;
+}
+img {
+  margin-left: 175px;
+}
+input {
+  font-size: 14px;
+  width: 200px;
+  height: 30px;
+}
+button {
+  font-size: 12px;
+  border-radius: 10px;
+    background: #FFFFFF;
+    padding: 7px 10px;
+    margin-left: 10px;
+}
